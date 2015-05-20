@@ -7,7 +7,13 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Esempio</title>
+        <title>Esercitazione Javascript</title>
+        <script type ="text/javascript">
+            document.write("<h1> Esempio utilizzo javascript</h1>");
+            alert("Attenzione!");
+            confirm("Ok?");
+            prompt("Inserisci nome:");
+        </script>
     <h1>Prova</h1>
     </head>
     <body>
