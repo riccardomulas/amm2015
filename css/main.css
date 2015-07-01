@@ -23,12 +23,20 @@ body{
 	text-align: right;	
 }
 
-.container{width:1024px; height: auto; overflow: hidden; border:1px solid #0000FF; margin:0 auto 0 auto;}
+.main-content > h1{
+	font-size: 25px; 
+	font-family: Georgia, serif;
+	margin-top: 0px;
+	margin-right: 15px; 
+	text-align: center;	
+	color: #0000CC; 
+}
+.container{width:1024px; height: auto; overflow: hidden; border:1px solid #0000FF; margin:0 auto 0 auto; background-color: #fff; opacity: 0.8; padding:10px;}
 
 .header{width:100%; height: 250px; border: 2px; border-color: #0000FF;}
 .lateral-menu{width:300px; height: auto; float:left; margin-right: 24px;}
 .main-content{width:700px; height: auto; float: right;}
-.footer{width:100%; height: 50; clear: both; float: left;}
+.footer{width:100%; height: 50; clear: both; float: left; text-align: center; font-style: italic}
 
 .stileLabel{width:300px;}
 
@@ -43,5 +51,6 @@ ul.menuPrincipale > li > a{color:#fff; text-decoration: none;}
 
 .errore{padding: 15px; width: auto; color: #FFF; background-color: red; border-top-left-radius: 15px; border-bottom-left-radius: 15px; margin-bottom: 20px;}
 .successo{padding: 15px; width: auto; color: #FFF; background-color: green; border-top-left-radius: 15px; border-bottom-left-radius: 15px; margin-bottom: 20px;}
+
 
 

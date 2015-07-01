@@ -6,66 +6,21 @@
 
             <?php include('inc/lateral_menu.php');?>
             <div class="main-content">
-                <h1>Informazioni</h1>
-                <form method="post">
-                <table class="table">
-                    <tr>
-                        <td>
-                            <label for="username">Username</label>
-                        </td>
-                        <td>
-                            <input name="username" id="username" type="text" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="password">Password</label>
-                        </td>
-                        <td>
-                            <input name="password" id="password" type="password"/> 
-                        </td>
-                    </tr>
-                    
-                    </table>
-                    <input type="submit" value="Entra!"/>
-                </form>
-                    <hr />
-
-                    <table class="tableContent">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nome prodotto</th>
-                                <th>Quantità</th>
-                                <th>Prezzo</th>
-                                <th>Operazioni</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>10€</td>
-                                <td><button id="delete">Elimina</button></td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>10€</td>
-                                <td><button id="delete">Elimina</button></td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>10€</td>
-                                <td><button id="delete">Elimina</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-
+                <h1>Informazioni</h1>  
+                <p>Il progetto simula la gestione di un negozio di prodotti sardi. Permette l'aggiunta, la cancellazione dei prodotti e 
+                   la visualizzazione degli ordini da parte dell'amministratore, la visualizzazione dei prodotti e il loro acquisto da parte
+                   dell'utente. L'unica azione permessa nella home page è il login; in base alle credenziali inserite saranno possibili
+                   le diverse operazioni. 
+                </p>   
+                <p>Requisiti rispettati:
+                    <ul>
+                        <li>Utilizzo di HTML e CSS</li>
+                        <li>Utilizzo di PHP e MySQL</li>
+                        <li>Due ruoli (amministratore e utente)</li>    
+                        <li>Una transizione (acquisto prodotti) implementata in funzioni.php (funzione compraProdotto)</li>  
+                        <li>Una funzionalità AJAX (cancellazioni prodotti) implementata in index.php</li>             
+                    </ul>
+                </p>
 
                 
             </div>

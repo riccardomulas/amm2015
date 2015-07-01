@@ -1,3 +1,3 @@
 <div class="footer">
-    Crediti del sito.
+    Sito sviluppato da Riccardo Mulas
 </div>

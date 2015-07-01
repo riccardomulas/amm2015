@@ -11,4 +11,5 @@
         <meta name="language" content="it" /> 
         <meta name="distribution" content="global" /> 
         <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     </head>
