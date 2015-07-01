@@ -1,14 +1,31 @@
-body{
-	background-color:#fff;
+html{
+	background: url(../images/santeodoro.jpg) center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body{	
 	margin:0;
 	padding:0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-size:14px;
 }
 
-.container{width:1024px; height: auto; overflow: hidden; border:1px solid #ccc; margin:0 auto 0 auto;}
+.header > h1{
+	color: #0000CC; 
+	font-style: italic; 
+	font-size: 50px; 
+	font-family: Georgia, serif;
+	margin-top: 0px;
+	margin-right: 15px; 
+	text-align: right;	
+}
 
-.header{width:100%; height: 250px; background-color:#dedede;}
+.container{width:1024px; height: auto; overflow: hidden; border:1px solid #0000FF; margin:0 auto 0 auto;}
+
+.header{width:100%; height: 250px; border: 2px; border-color: #0000FF;}
 .lateral-menu{width:300px; height: auto; float:left; margin-right: 24px;}
 .main-content{width:700px; height: auto; float: right;}
 .footer{width:100%; height: 50; clear: both; float: left;}
@@ -26,3 +43,5 @@ ul.menuPrincipale > li > a{color:#fff; text-decoration: none;}
 
 .errore{padding: 15px; width: auto; color: #FFF; background-color: red; border-top-left-radius: 15px; border-bottom-left-radius: 15px; margin-bottom: 20px;}
 .successo{padding: 15px; width: auto; color: #FFF; background-color: green; border-top-left-radius: 15px; border-bottom-left-radius: 15px; margin-bottom: 20px;}
+
+
