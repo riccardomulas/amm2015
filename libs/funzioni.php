@@ -1,10 +1,14 @@
 <?php	
-	define("DB_SERVER", "localhost"); 
+	/*define("DB_SERVER", "localhost"); 
 	define("DB_USER", "mulasRiccardo"); 
 	define("DB_PASS", "pesce4352"); 
 	define("DB_NAME", "amm15_mulasRiccardo");
 
-	 
+*/
+		define("DB_SERVER", "localhost"); 
+	define("DB_USER", "root"); 
+	define("DB_PASS", ""); 
+	define("DB_NAME", "negozio");
 
 
 	function aggiungiProdotto($nome, $costo, $quantita){
@@ -40,7 +44,8 @@
 
 	function cancellaProdotto($id){
 		$mysqli = new mysqli(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
-		$res 	= $mysqli->query("DELETE FROM prodotti WHERE id=$id");
+		$ordiniCancella 	= $mysqli->query("DELETE FROM ordini WHERE id_prodotto=$id");
+		$prodottoCancella 	= $mysqli->query("DELETE FROM prodotti WHERE id=$id");
 
 		if($res)
 			return true;
